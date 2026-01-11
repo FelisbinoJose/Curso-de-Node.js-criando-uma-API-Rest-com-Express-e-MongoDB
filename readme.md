@@ -15,3 +15,7 @@
 ---
 
 ## Plano de ensino
+
+### 11/01/2026 - [1a aula](https://github.com/FelisbinoJose/Curso-de-Node.js-criando-uma-API-Rest-com-Express-e-MongoDB/tree/1a-aula)
+
+- Criando o projeto com Node.js
