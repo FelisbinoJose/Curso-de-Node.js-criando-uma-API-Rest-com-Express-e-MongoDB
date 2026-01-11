@@ -30,6 +30,20 @@ http://localhost:3000
 
 ---
 
+## Objetos contendo as rotas
+
+```js
+const rotas = {
+  "/": "Curso de Express API",
+  "/livros": "Entrei na rota livros",
+  "/autores": "Entrei na rota autores",
+};
+```
+
+> - Rotas armezanadas em `chave` : `valor`
+
+---
+
 ## Criação do servidor
 
 ```js
@@ -64,10 +78,10 @@ res.writeHead(200, { "Content-Type": "text/plain" });
 ## Enviando a resposta
 
 ```js
-res.end("Curso de Node.js");
+res.end(rotas[req.url]);
 ```
 
-> - Envia o conteúdo da resposta
+> - busca a chave contida no objeto e retorna o valor
 
 > - Finaliza a requisição
 
