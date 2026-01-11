@@ -1,0 +1,13 @@
+{
+  "name": "curso-de-node.js-criando-uma-api-rest-com-express-e-mongodb---juliana-amoasei",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
