@@ -1,6 +1,8 @@
-import express from "express"
+import express from "express";
 
 const app = express();
+
+app.use(express.json());
 
 const livros = [
 
@@ -13,14 +15,19 @@ const livros = [
         id: 2,
         titulo: 'O Hobbit'
     }
-]
+];
 
 app.get("/", (req, res) => {
     res.status(200).send("Curso de Node.js");
 });
 
-app.get("/Livros", (req, res) => {
+app.get("/livros", (req, res) => {
     res.status(200).json(livros);
 });
 
-export default app
+app.post("/livros", (req, res) => {
+    livros.push(req.body);
+    res.status(201).send("Livro cadastrado com sucesso");
+})
+
+export default app;
