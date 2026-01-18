@@ -23,3 +23,7 @@
 ### 17/01/206 - [2a aula](https://github.com/FelisbinoJose/Curso-de-Node.js-criando-uma-API-Rest-com-Express-e-MongoDB/tree/2a-aula)
 
 - Express e primeiras rotas
+
+### 18/01/206 - [3a aula](https://github.com/FelisbinoJose/Curso-de-Node.js-criando-uma-API-Rest-com-Express-e-MongoDB/tree/3a-aula)
+
+- Persistindo dados.
