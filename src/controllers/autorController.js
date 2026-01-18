@@ -1,6 +1,6 @@
 import autor from "../models/Autor.js"
 
-class LivroController {
+class autorController {
 
     static async listarAutor(req, res) {
         try {
@@ -67,4 +67,4 @@ class LivroController {
 
 };
 
-export default LivroController;
+export default autorController;
